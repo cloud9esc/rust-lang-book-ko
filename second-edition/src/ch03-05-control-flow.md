@@ -325,8 +325,7 @@ fn main() {
 }
 ```
 
-<span class="caption">Listing 3-5: Looping through each element of a collection
-using a `while` loop</span>
+<span class="caption">Listing 3-5: `while` 반복문을 사용해 콜렉션의 각 요소들을 순회하기</span>
 
 여기서, 코드는 배열의 요소에 걸쳐 카운트를 증가시킵니다. 이 색인은 `0`에서 시작하고, 배열의 마지막 순서까지 반복됩니다
 (즉, `index < 5`가 참이 아닐 때까지). 이 코드를 수행하면 배열의 모든 요소가 출력되게 됩니다. 
@@ -365,8 +364,7 @@ fn main() {
 }
 ```
 
-<span class="caption">Listing 3-6: Looping through each element of a collection
-using a `for` loop</span>
+<span class="caption">Listing 3-6: `for` 반복문을 사용해 콜렉션의 각 요소를 순회하기</span>
 
 우리가 이 코드를 수행하면, 항목 3-5와 같은 결과를 볼 수 있습니다. 더 중요한 것은, 우리는 이제 코드의 안전성을 높이고 
 배열의 끝을 넘어가거나 충분한 길이를 지정하지 못해 일부 아이템이 누락되어 발생할 수있는 버그의 가능성을 제거했습니다.
