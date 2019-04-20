@@ -171,8 +171,7 @@ fn main() {
 }
 ```
 
-<span class="caption">Listing 3-4: Assigning the result of an `if` expression
-to a variable</span>
+<span class="caption">Listing 3-4: `if` 표현식의 결과값을 변수에 대입하기</span>
 
 변수 `number`에는 `if`식에서 산출된 값이 bound되게 됩니다. 어떤 일이 일어날지 코드를 실행해보죠:
 
